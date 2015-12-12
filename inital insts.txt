@@ -3,13 +3,13 @@ https://github.com/adityagampa/code-a-day
 login to github..  signup if u dont have an account
 download and install git..
 Install git from http://git-scm.com/downloads
-copy the url in the page beside the downloadZip 
+
 create a folder any where on ur system .. u l b using this folder
 to store all the work we do..
 open git bash there.. (right click then u l get 'git bash here')
 follow the next three commands
 git init
-git remote add origin "the copied link before"
+git remote add origin https://github.com/adityagampa/code-a-day.git
 git pull origin master
 (u can use git gui also.. upto u..)
 after execution of those three commands u shuld see 
