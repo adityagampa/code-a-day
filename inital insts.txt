@@ -1,0 +1,30 @@
+Goto the url
+https://github.com/adityagampa/code-a-day
+login to github..  signup if u dont have an account
+download and install git..
+Install git from http://git-scm.com/downloads
+copy the url in the page beside the downloadZip 
+create a folder any where on ur system .. u l b using this folder
+to store all the work we do..
+open git bash there.. (right click then u l get 'git bash here')
+follow the next three commands
+git init
+git remote add origin "the copied link before"
+git pull origin master
+(u can use git gui also.. upto u..)
+after execution of those three commands u shuld see 
+folders present in github in ur directory..
+add a folder with ur name
+put ur codes into that folder.. for now put any sample code.. 
+then open git gui in the same folder (right click)
+then follow these three steps..
+click on stage changed by selecting ur folder..
+then write any commit message about the folder u r pushing..
+then click on commit..
+then click on push..
+it asks for ur username and password of github .. 
+then finally verify whether ur code has been succesfully commited or not
+by checking the online github..
+**NOTE : you need to do a pull before u push the changes..
+goto ur directory and open git bash there and use the command
+git pull origin master
