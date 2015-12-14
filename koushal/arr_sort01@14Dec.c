@@ -44,7 +44,7 @@ int main(void)
 				*(ptr+i)=0;
 				*(ptr+j)=1;
 			}
-			i++;
+			i++;								//move fwd
 			j--;
 		}
 	}
