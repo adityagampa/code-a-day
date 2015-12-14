@@ -24,20 +24,20 @@ int main(void)
 	
 	while(i<j)									//sorting
 	{
-		if(*(ptr+i) == 0)
+		if(*(ptr+i) == 0)						//in place so move fwd
 		{
 			i++;
 		}
 		else
 		{
-			if(*(ptr+j) == 0)
+			if(*(ptr+j) == 0)					// ith ele is 1
 			{
 				*(ptr+i)=0;
 				*(ptr+j)=1;
 			}
-			else
+			else								//i th and j th ele are 1s
 			{
-				while(i<j && *(ptr+j) == 1)
+				while(i<j && *(ptr+j) == 1)		//find j th ele that is 0	
 				{
 					j--;
 				}
