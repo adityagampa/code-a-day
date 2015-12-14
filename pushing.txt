@@ -1,0 +1,18 @@
+step 1:
+-goto the main folder in which u see everyones folders with
+their names then open git bash (right click -> git bash here)
+-then type this command
+git pull origin master
+then u l get all the changes upto date
+step 2:
+close git bash and open git gui
+u should see ur respective folder with changes in top left corner 
+under un staged changes..
+then click on stage changed
+then type a commit message like "adding 01sort array code"
+then click on commit then click on push 
+then in the pop up also click on push 
+if it asks for ur username and password type it correctly
+finally u l get a pop up as success.. 
+check online in the git hub ..
+ur codes shuld be there..
