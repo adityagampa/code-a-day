@@ -29,6 +29,7 @@ void sort(int a[],int n)
         printf("%d\t",a[i]);
 }
 
+
 int main()
 {
     int a[]={0,1,0,1,1,1,0,0,0,1,1};
