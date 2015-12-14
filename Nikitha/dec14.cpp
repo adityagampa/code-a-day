@@ -6,6 +6,8 @@ int main()
 	cout<<"\n enter the  length of the array \n";
 	cin>>n;
 	a=new int[n];
+	if(n>0)
+    {
     cout<<"\n enter the elements in the array \n";
 	LOOP:for(int i=0;i<n;i++)
 	{
@@ -35,5 +37,8 @@ int main()
 	{
 		cout<<a[i]<<" ";
 	}
+    }
+    else
+        cout<<"size is zero \n";
 	return 0;
 }
