@@ -1,0 +1,9 @@
+Topic : Arrays
+----------------------------
+14DEC : 
+Given an array of only 1's and 0's and it's length as input.. Sort the array in place..
+In place means u cannot create another array.. u have to sort the given array itself..
+Note : try to optimize your code with lesser number of iterations..
+Input : 0 1 1 1 0 0 1 0 and length of array is 8
+Output : 0 0 0 0 1 1 1 1
+----------------------------
