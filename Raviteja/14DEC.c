@@ -1,12 +1,18 @@
 #include <stdio.h>
 #define max 15
 
+void display(int a[],int n)
+{
+    int i;
+    for(i=0;i<n;i++)
+        printf("%d\t",a[i]);
+}
+
 void sort(int a[],int n)
 {
     int i,count=0;
     printf("\nArray before sorting: \n");
-    for(i=0;i<n;i++)
-        printf("%d\t",a[i]);
+    display(a,n);
     for(i=0;i<n/2;i++)
     {
         if(a[i]==0)
@@ -25,8 +31,7 @@ void sort(int a[],int n)
             a[i]=1;
     }
     printf("\nArray after sorting: \n");
-    for(i=0;i<n;i++)
-        printf("%d\t",a[i]);
+    display(a,n);
 }
 
 
