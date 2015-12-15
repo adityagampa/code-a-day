@@ -1,5 +1,15 @@
 Topic : Arrays
 ----------------------------
+15DEC:
+Given an ascending sorted array, of which TWO numbers are misplaced in the array .. i.e in wrong postions.. fix those two numbers by placing 
+them in the correct places and output the array..
+Note : try to optimize your code with lesser number of iterations..
+EG:
+Input : 10, 40, 30, 20, 50 and length of array is 5
+output : 10 , 20 ,30 , 40 , 50
+Input : 50, 20, 30, 40, 10 and length of array is 5
+output : 10 , 20 , 30, 40 , 50
+----------------------------
 14DEC : 
 Given an array of only 1's and 0's and it's length as input.. Sort the array in place..
 In place means u cannot create another array.. u have to sort the given array itself..
