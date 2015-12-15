@@ -1,8 +1,8 @@
 Topic : Arrays
 ----------------------------
 15DEC:
-Given an ascending sorted array, of which TWO numbers are misplaced in the array .. i.e in wrong postions.. fix those two numbers by placing 
-them in the correct places and output the array..
+Given an ascending sorted array, of which Atmost TWO numbers are misplaced in the array .. i.e in wrong postions.. fix those two numbers by
+placing them in the correct places and output the array..
 Note : try to optimize your code with lesser number of iterations..
 EG:
 Input : 10, 40, 30, 20, 50 and length of array is 5
