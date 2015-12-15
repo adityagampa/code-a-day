@@ -6,7 +6,7 @@ void sort_two(int array[],int size_array)
 	int i=0;
 	for(;i<size_array;i++)
 	{
-		if(index==-1)
+		if(index1==-1)
 		{
 			if(array[i]>array[i+1])
 			{
