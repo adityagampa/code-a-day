@@ -11,6 +11,7 @@ int main(void)
 	if(ptr==NULL)
 	{
 		printf("ERROR: Couldnot allocate memory \n");
+		exit(-1);
 	}
 	
 	printf("\n Enter the elements of the array \n");		//array input
