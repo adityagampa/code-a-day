@@ -37,7 +37,7 @@ void sort(int a[],int n)
 
 int main()
 {
-    int a[]={0,1,0,1,1,1,0,0,0,1,1};
+    int a[]={0,1,1,0,1,0,0,1,0,1,1};
     int n=sizeof(a)/sizeof(int);
     sort(a,n);
     return 0;
