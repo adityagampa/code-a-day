@@ -9,6 +9,8 @@ Input : 10, 40, 30, 20, 50 and length of array is 5
 output : 10 , 20 ,30 , 40 , 50
 Input : 50, 20, 30, 40, 10 and length of array is 5
 output : 10 , 20 , 30, 40 , 50
+Input : 10 20 30 40 50 and length of array is 5
+output : 10 20 30 40 50
 ----------------------------
 14DEC : 
 Given an array of only 1's and 0's and it's length as input.. Sort the array in place..
