@@ -1,5 +1,38 @@
 Topic : Arrays
 ----------------------------
+Dec 17th--
+1.Wrtie a program to find the prime numbers, even numbers and odd numbers in an array.
+The input should consist of an array and output should consist of 3 arrays i.e prime number array,even number array,odd number array.
+In case if there is no prime number in your array then select an element from your array and find the nearest prime number of that element
+example 1=
+input={2,4,8,7,9,6,13,11,39}
+output= prime number={7,11,13}
+	even number={2,4,8,6}
+	odd number={7,9,11,13,39}
+
+example 2=
+input={10,18,20,26,25,48,49}
+output=even number={10,18,20,26,48}
+	odd number={25,49}
+	select a number from the array. Am selecting 10.
+	therefore prime number={11}
+
+	now in case if i select 18. then nearest prime numbers between 18 is 17 and 19.
+	In this case we can either display 17 or 19. 
+	
+	
+2. Write a program to find the pythogerean triplets in the array. The array should consist of atleast 3 elements in it. 
+   No duplicate elements are allowed in the array.
+
+example-
+	input={5,6,9,12,13}
+	output={5,12,13}
+
+Look after all the test cases.
+
+
+
+
 16DEC-1
 Given a number n ,output a Square matrix (n*n) (2D array) satisfying these 3 conditions ..
 -All elements on the diagonal of the final array are zero ..
