@@ -41,10 +41,16 @@ void display(int *a,int n)
 }
 int main()
 {
-    int a[]={10,40,30,20,50};
-    int i=0,n=sizeof(a)/sizeof(int);
+    int n;
+    printf("\n Enter size ");
+    scanf("%d",&n);
+    printf("\n Enter elements ");
+    int *a=malloc(n*sizeof(int)),i=0;
+    for(;i<n;i++)
+        scanf("%d",&a[i]);
     sortedArrayPositionsChange(a,n);
     display(a,n);
+    free(a);
     return 0;
 }
 // worst case time complexity is O(n) where 'n' is the length of the array..
