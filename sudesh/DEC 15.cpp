@@ -4,7 +4,7 @@ void sort1(int *a,int n);
 void display(int *a,int n);
 int main()
 {
-	int a[5]={10,40,30,20,50};
+	int a[5]={10,50,30,40,20};
 	cout<<"\nbefore sorting";
 	display(a,5);
 	sort1(a,5);
@@ -23,7 +23,7 @@ void sort1(int *a,int n)
 	{
 		for(j=i+1;j<n;j++)
 		{
-			if(a[j]>a[j+1])
+			if((a[j]>a[j+1]))
 			{
 				temp=a[j+1];
 				a[j+1]=a[i];
