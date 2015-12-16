@@ -2,7 +2,7 @@ Topic : Arrays
 ----------------------------
 16DEC-1
 Given a number n ,output a Square matrix (n*n) (2D array) satisfying these 3 conditions ..
--All elements on the two diagonals of the final array are zero ..
+-All elements on the diagonals of the final array are zero ..
 -All elements in the upper right triangle of the final array are equal to 1..
 -All elements in lower left triangle of final array are equal to -1 ..
 
@@ -25,7 +25,7 @@ Note : NO extra buffer is allowed.. i.e u cant take another array to solve the p
 input : 1 2 3 4 5 6 and length of array is 6 and k is 2 
 output : 3 4 5 6 1 2
 input : 1 2 3 ,length is 3 and k is 4
-output : 1 2 3
+output : 2 3 1
 ------------------------
 15DEC:
 Given an ascending sorted array, of which Atmost TWO numbers are misplaced in the array .. i.e in wrong postions.. fix those two numbers by
