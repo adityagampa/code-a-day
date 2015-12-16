@@ -1,5 +1,32 @@
 Topic : Arrays
 ----------------------------
+16DEC-1
+Given a number n ,output a Square matrix (n*n) (2D array) satisfying these 3 conditions ..
+-All elements on the two diagonals of the final array are zero ..
+-All elements in the upper right triangle of the final array are equal to 1..
+-All elements in lower left triangle of final array are equal to -1 ..
+
+input: 4
+output:
+0  1  1  1
+-1  0  1  1
+-1 -1  0  1
+-1 -1 -1  0
+input: 3
+0  1  1
+-1  0  1
+-1 -1  0
+--------------------------
+16DEC-2
+Given an array ,length of array and a number 'k' .. You have to rotate the array in place towards right side by 'k' steps.. cover all the 
+edge cases..
+Note : NO extra buffer is allowed.. i.e u cant take another array to solve the problem..
+
+input : 1 2 3 4 5 6 and length of array is 6 and k is 2 
+output : 3 4 5 6 1 2
+input : 1 2 3 ,length is 3 and k is 4
+output : 1 2 3
+------------------------
 15DEC:
 Given an ascending sorted array, of which Atmost TWO numbers are misplaced in the array .. i.e in wrong postions.. fix those two numbers by
 placing them in the correct places and output the array..
