@@ -1,5 +1,10 @@
 Topic : Arrays
 ----------------------------
+Dec 18th--
+1.Given three numbers n1,n2,and r. Merge the table of n1 and n2 and find the r th number. In merging it should eliminate duplicate values (tables consists the multiples of those numbers ,ie 3 contains 3,6,9,12..)
+Ex , n1=3 ,n2=5 and r=5, The merged table is 3,5,6,9,10,12,15(One more 15 is removed as its duplicate ) 18,20,21,24,25........so on .
+The rth num ie 5th number is 10 ,so OP is 10
+----------------------------
 Dec 17th--
 1.Wrtie a program to find the prime numbers, even numbers and odd numbers in an array.
 The input should consist of an array and output should consist of 3 arrays i.e prime number array,even number array,odd number array.
