@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(void) {
-    int a[15]={10,18,20,26,25,48,49},i,j=0,k=0,l=0,m,b[9],c[9],d[9],count,count1,flag=0,p,h,g,e,f,count2,r;
+    int a[15]={1,18,20,26,25,48,49},i,j=0,k=0,l=0,m,b[9],c[9],d[9],count,count1,flag=0,p,h,g,e,f,count2,r;
     for(i=0;i<7;i++)
     {
         count=0;
@@ -32,7 +32,7 @@ int main(void) {
     if(flag==0)
     {
             
-            p=a[6];
+            p=a[0];
             printf("the selected number is :%d\n",p);
             g=p;
             e=p;

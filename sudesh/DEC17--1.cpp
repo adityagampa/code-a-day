@@ -23,7 +23,7 @@ int main()
 			even[k++]=a[i];
 		}
 		n=0;
-		for(m=2;m<(a[i]/2);m++)
+		for(m=2;m<=(a[i]/2);m++)
 		{	
 			if(a[i]%m==0)
 			{
@@ -46,18 +46,20 @@ int main()
 	}
 	else
 	{
-		cout<<"select any number from the entered elements";
+		cout<<"select any number from the entered elements:\t";
 		cin>>z;
 		o=1;											//o is the difference from the selected number//
 		while(o<z)
 		{
 			c=z-o;
 			q=c;
-			for(b=2;b<c/2;b++)
+			w=0;
+			for(b=2;b<=c/2;b++)
 			{
 				if(c%b==0)
 				{
 					w++;
+					break;
 				}
 			}
 			if(w==0)
@@ -70,11 +72,13 @@ int main()
 			{
 					c=z+o;
 					q=c;
-				for(b=2;b<c/2;b++)
+					u=0;
+				for(b=2;b<=c/2;b++)
 				{
 					if(c%b==0)
 					{
 					u++;
+					break;
 					}
 				}
 			if(u==0)
@@ -82,10 +86,9 @@ int main()
 				cout<<"nearest prime number is"<<q;
 				break;	
 			}
-			o--;
-			}
 			
-			
+			}			
+			o++;	
 		}
 	}		
 		
