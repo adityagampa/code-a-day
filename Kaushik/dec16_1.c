@@ -1,7 +1,8 @@
 #include<stdio.h>
 int main()
 {
-	int mat[20][20];
+	
+	int arr[]={0,-1,1};
 	int a;
 	printf("enter the order of the matrix :");
 	scanf("%d",&a);
@@ -16,26 +17,19 @@ int main()
 		{
 			if(i==j)
 			{
-				mat[i][j]=0;
+				printf(" %d ",arr[0]);
 			}
 			else if(i<j)
 			{
-				mat[i][j]=1;
+				printf(" %d ",arr[2]);
 			}
 			else if(i>j)
 			{
-				mat[i][j]=-1;
+				printf(" %d ",arr[1]);
 			}
-		}
-	}
-	printf("\n the matrix with the given order is \n");
-	for(i=0;i<a;i++)
-	{
-		for(j=0;j<a;j++)
-		{
-			
-			printf(" %d ",mat[i][j]);
+		
 		}
 		printf("\n");
 	}
+	
 }
