@@ -8,7 +8,7 @@ int main(void)
 	
 	printf("\n Enter the size of the array \n");
 	scanf("%d",&size);
-	if(size<=0)
+	if(size<=1)
 	{
 		printf("\n Invalid size... RETRY \n");
 		exit(-1);
