@@ -54,7 +54,7 @@ void triplet(int *a,int n)
 
 int main()
 {
-    int a[]= {5,6,9,12,13},n=sizeof(a)/sizeof(a[0]);
+    int a[]= {5,6,7,9,12,13,24,25,40,41,11,60,61,84,85,15,112,113},n=sizeof(a)/sizeof(a[0]);
     if(noduplicate(a,n))
     {
         triplet(a,n);
