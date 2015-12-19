@@ -34,11 +34,6 @@ int main()
 	}
 	for(i=0;i<k;i++)
 	{
-		printf("%d ",b[i]);
-	}
-	printf("\n");
-	for(i=0;i<k;i++)
-	{
 		for(j=0;j<k;j++)
 		{
 			if(b[i]+b[j]==m)
