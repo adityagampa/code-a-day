@@ -2,7 +2,7 @@
 #include<stdlib.h>
 int main()
 {
-	int a[50],n,b[50],i,j,k=0,m,flag;
+	int a[50],n,b[50],i,j,k=0,m,flag,count=0;
 	printf("enter the no of elements in the array\n");
 	scanf("%d",&n);
 	printf("enter the elements\n");
@@ -39,8 +39,13 @@ int main()
 			if(b[i]+b[j]==m)
 			{
 				printf("%d %d\n",b[i],b[j]);
+				count++;
 			}
 		}
+	}
+	if(count==0)
+	{
+		printf("no such pair exists");
 	}
 	return 0;
 }
