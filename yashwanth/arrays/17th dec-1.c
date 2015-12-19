@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(void) {
-    int a[15]={1,18,20,26,25,48,49},i,j=0,k=0,l=0,m,b[9],c[9],d[9],count,count1,flag=0,p,h,g,e,f,count2,r;
+    int a[15]={1,18,20,26,25,48,49},i,j=0,k=0,l=0,m,b[9],c[9],d[9],count,e,p,h=0,g=0;
     for(i=0;i<7;i++)
     {
         count=0;
@@ -26,29 +26,27 @@ int main(void) {
         {
             d[l]=a[i];
             l++;
-            flag++;
         }
     }
-    if(flag==0)
+    if(l==0)
     {
             
-            p=a[0];
-            printf("the selected number is :%d\n",p);
-            g=p;
+            p=a[4];
             e=p;
-            f=p;
+            printf("the selected number is :%d\n",p);
             while(p>0)
             {
                 p++;
-                count1=0;
+                h++;
+                count=0;
                 for(i=1;i<p;i++)
                 {
                   if(p%i==0)
                   {
-                      count1++;
+                      count++;
                   }
                 }
-                  if(count1==1)
+                  if(count==1)
                   {
                     l++;
                 }
@@ -57,30 +55,29 @@ int main(void) {
                     break;
                 }
             }
-            h=p-g;
             while(e>0)
             {
                 e--;
-                count2=0;
+                g++;
+                count=0;
                 for(i=1;i<e;i++)
                 {
                     if(e%i==0)
                     {
-                        count2++;
+                        count++;
                     }
                 }
-                if(count2==1)
+                if(count==1)
                 {
                     break;
                 }
                 
             }
-            r=f-e;
-            if(r>h)
+            if(g>h)
            {
                 d[l-1]=p;
             }
-            else if(r<h)
+            else if(g<h)
             {
                 d[l-1]=e;
             }
