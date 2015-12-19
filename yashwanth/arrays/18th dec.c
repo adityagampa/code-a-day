@@ -1,54 +1,39 @@
 #include <stdio.h>
-
 int main()
 {
-    int a[100],b[100],c[100],d[100],i,j=0,k=0,l=0,temp,r=8,p=0;
-    for(i=1;i<11;i++)
+    int a[100],b[100],c[100],n1,n2,r,i,j=0,k=0,l=0,m=0;
+    printf("enter the values of n1 \t n2\t r\t");
+    scanf("%d %d %d",&n1,&n2,&r);
+    for(i=1;i<r;i++)
     {
-        a[j]=5*i;
+        a[j]=n1*i;
         j++;
     }
-    for(i=1;i<11;i++)
+    for(i=1;i<r;i++)
     {
-        b[k]=3*i;
+        b[k]=n2*i;
         k++;
     }
-    for(i=0;i<j;i++)
+    for(i=0;i<2*r;i++)
     {
-           c[l]=a[i];
-           l++;
-           c[l]=b[i];
-        l++;
-    }
-    for(i=0;i<l;i++)
-    {
-        for(j=i+1;j<l;j++)
+        if(a[m]<b[l])
         {
-          if(c[i]>c[j])  
-          {
-              temp=c[i];
-              c[i]=c[j];
-              c[j]=temp;
-          }
+		c[i]=a[m];
+		m++;
+	   }
+	   else if(a[m]>b[l])
+	   {
+		c[i]=b[l];
+		l++;
         }
-    }
-    for(i=0;i<l;i++)
-    {
-            if(c[i]==c[i+1])
-            {
-                continue;
-            }
-            else
-            {
-                d[p]=c[i];
-                p++;
-            }
-    }
-    for(i=0;i<p;i++)
-    {
-        printf("%d ",d[i]);
+        else
+	  {
+		c[i]=a[m];
+		l++;
+		m++;
+       }
     }
     printf("\n");
-    printf("%dth element is: %d ",r,d[r-1]);
+    printf("%dth element is: %d ",r,c[r-1]);
     return 0;
 }
