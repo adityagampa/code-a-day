@@ -1,7 +1,7 @@
 Topic : Arrays
 ----------------------------
 Dec 20th--
-Given two arrays number[] and rem[].Size of the arrays is same.In num[], every pair is coprime (gcd for every pair is 1).Output the minimum positive number x such that
+1. Given two arrays number[] and rem[].Size of the arrays is same.In num[], every pair is coprime (gcd for every pair is 1).Output the minimum positive number x such that
 		x%number[0]=rem[0]
 		x%number[1]=rem[1]
 		x%number[2]=rem[2]
