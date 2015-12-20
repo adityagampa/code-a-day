@@ -1,5 +1,28 @@
 Topic : Arrays
 ----------------------------
+Dec 21st--
+1.Given an array of integers, print the missing elements in the range 0-99(including) . If there are more than one missing, collate them, otherwise just print the number.
+
+Ex 1:
+	Input: {88, 105, 3, 2, 200, 0, 10}
+        Output: 1
+                4-9
+                11-87
+                89-99
+Note:Input array can have duplicate elements and the elements greater than 100 or negative numbers.
+
+Ex 2:
+	Input:{1,1,35,49,48,98,98,59,49,18,98,128,178}
+	Output: 0
+		2-17
+		19-34
+		36-47
+		50-59
+		60-97
+		99
+
+---------------------------
+
 Dec 20th--
 1. Given two arrays number[] and rem[].Size of the arrays is same.In num[], every pair is coprime (gcd for every pair is 1).Output the minimum positive number x such that
 		x%number[0]=rem[0]
