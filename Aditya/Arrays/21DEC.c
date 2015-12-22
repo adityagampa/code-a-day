@@ -2,7 +2,7 @@
 #include <stdlib.h>
 void display(int *a,int n)
 {
-    int i=0;
+    int i=0; 
     for(;i<n;i++)
         printf("%d ",a[i]);
     printf("\n");
