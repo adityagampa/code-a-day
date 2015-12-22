@@ -1,27 +1,37 @@
 #include<iostream>
 using namespace std;
+void sorting(int *a,int n);
+bool check(int *a,int n);
 int main()
 {
-	int *a,n,count=0;
+	int *a,n;
 	cout<<"\n enter the  length of the array \n";
 	cin>>n;
 	a=new int[n];
 	if(n>0)
     {
-    cout<<"\n enter the elements in the array \n";
-	LOOP:for(int i=0;i<n;i++)
-	{
-		cin>>a[i];
-		if((a[i]!=0)&&(a[i]!=1))
-		{
-			cout<<"\n enter only 0's or 1's";
-			cout<<"\n enter your elements again";
-            goto LOOP;
-		}
+        cout<<"\n enter the elements in the array \n";
+        for(int i=0;i<n;i++)
+        {
+            cin>>a[i];
+        }
+        if(check(a,n))
+        {
+        sorting(a,n);
+        }
+        else
+        cout<<"\n invalid elements entered";
     }
-	// sort
-	for(int i=0;i<n;i++)
-	{
+
+    else
+        cout<<"size is zero \n";
+	return 0;
+}
+void sorting(int *a,int n)
+{
+    int count=0;
+  for(int i=0;i<n;i++)
+    {
 		if(a[i]==0)
 		{
 			count++;
@@ -37,8 +47,16 @@ int main()
 	{
 		cout<<a[i]<<" ";
 	}
+
+}
+bool check(int *a,int n)
+{
+    for(int i=0;i<n;i++)
+    {
+        if((a[i]!=0)&&(a[i]!=1))
+		{
+			return false;
+        }
     }
-    else
-        cout<<"size is zero \n";
-	return 0;
+    return true;
 }
