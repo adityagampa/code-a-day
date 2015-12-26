@@ -1,3 +1,31 @@
+Topic: Strings
+----------------------------
+DEC 26th--
+
+1.We are given a string having parenthesis like below
+     “( ((X)) (((Y))) )”
+We need to find the maximum depth of balanced parenthesis, like 4 in above example. Since ‘Y’ is surrounded by 4 balanced parenthesis.
+
+If parenthesis are unbalanced then return -1.
+
+S = "( a(b) (c) (d(e(f)g)h) I (j(k)l)m)";
+Output : 4
+
+S = "( p((q)) ((s)t) )";
+Output : 3
+
+S = "";
+Output : 0
+
+S = "b) (c) ()";
+Output : -1 
+
+S = "(b) ((c) ()"
+Output : -1 
+
+
+
+
 Topic : Arrays
 ----------------------------
 Dec 25th--
