@@ -7,7 +7,6 @@ int main()
    cout<<"enter size of array"<<endl;
    cin>>size;
    int a[size],b[size];
-   
     if(size<3)
    {
       cout<<"No pythagorean triplets found"<<endl;
@@ -42,7 +41,6 @@ int main()
   for(int i=0;i<k;i++)
   {
      a[i]=b[i]*b[i];
-    // cout<<a[i]<<endl;
   }
   cout<<"pythagorean triplets are"<<endl;
   for(int i=0;i<k;i++)
