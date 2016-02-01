@@ -1,5 +1,22 @@
 Topic: Strings
 ----------------------------
+Feb 1st
+u are given two numbers.. ur code needs to add them but addition should take place from left side of the numbers..
+eg : 
+	123
++	486
+u should add digits from the left side like 1 and 4 -> 5 then 2 and 8 gives 10 so add the carry to 5 and 0 to second postion -> 60 
+then 3 + 6 gives 9 thus the number is 609.. if u didn't understand the question u can ask in the whatsapp grp..
+
+input : two numbers
+output : sum of the two numbers
+Note :
+1.the first number sum (1+4 in prev eg) would be less than or equal to 9 (eg: invalid input : 98 10 since first digits sum 9+1 is > 9)  
+2.the numbers can be of unequal length also ..
+eg: 
+input : 123 49
+output: 172
+----------------------------
 DEC 27th--
 
 1.Given a string, that contains special character together with alphabets (‘a’ to ‘z’ and ‘A’ to ‘Z’), reverse the string in a way that special characters are not affected.
